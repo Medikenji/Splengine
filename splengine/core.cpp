@@ -54,8 +54,6 @@ Core::Core()
 
     // Set the clear color
     ImVec4 clear_color = ImVec4(1.0f, 1.0f, 1.0f, 1.00f);
-
-    // Main loop
 }
 
 Core::~Core()

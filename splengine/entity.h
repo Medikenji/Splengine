@@ -2,6 +2,7 @@
 #define ENTITY_H
 #include <iostream>
 #include <vector>
+#include "component.h"
 class Entity
 {
 public:
@@ -11,6 +12,7 @@ public:
 
 private:
 std::vector<Entity> entities;
+std::vector<Component> components;
 };
 
-#endif
+#endif // ENTITY_H

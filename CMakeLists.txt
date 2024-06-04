@@ -28,6 +28,7 @@ include_directories(
     imgui/examples/libs
     imgui/examples/libs/GLFW
     splengine
+    splengine/components
 )
 
 # Add the main executable

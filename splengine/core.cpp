@@ -1,22 +1,4 @@
-#ifndef CORE_CPP
-#define CORE_CPP
-#include <iostream>
-#include "GLFW/glfw3.h"
-#include "imgui.h"
-#include "imgui_impl_glfw.h"
-#include "imgui_impl_opengl3.h"
-
-class Core
-{
-public:
-    Core();
-    ~Core();
-    void run();
-    GLFWwindow *window;
-
-private:
-    ImVec4 clear_color;
-};
+#include "core.h"
 
 static void glfw_error_callback(int error, const char *description)
 {
@@ -88,4 +70,3 @@ void Core::run()
     glfwSwapBuffers(window);
 }
 
-#endif

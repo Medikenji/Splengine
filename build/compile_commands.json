@@ -1,6 +1,30 @@
 [
 {
   "directory": "C:/Users/nolan/Downloads/Splengine/Splengine/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Splengine.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Splengine.dir\\splengine\\components\\component.cpp.obj -c C:\\Users\\nolan\\Downloads\\Splengine\\Splengine\\splengine\\components\\component.cpp",
+  "file": "C:/Users/nolan/Downloads/Splengine/Splengine/splengine/components/component.cpp",
+  "output": "CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj"
+},
+{
+  "directory": "C:/Users/nolan/Downloads/Splengine/Splengine/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Splengine.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Splengine.dir\\splengine\\core.cpp.obj -c C:\\Users\\nolan\\Downloads\\Splengine\\Splengine\\splengine\\core.cpp",
+  "file": "C:/Users/nolan/Downloads/Splengine/Splengine/splengine/core.cpp",
+  "output": "CMakeFiles/Splengine.dir/splengine/core.cpp.obj"
+},
+{
+  "directory": "C:/Users/nolan/Downloads/Splengine/Splengine/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Splengine.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Splengine.dir\\splengine\\entity.cpp.obj -c C:\\Users\\nolan\\Downloads\\Splengine\\Splengine\\splengine\\entity.cpp",
+  "file": "C:/Users/nolan/Downloads/Splengine/Splengine/splengine/entity.cpp",
+  "output": "CMakeFiles/Splengine.dir/splengine/entity.cpp.obj"
+},
+{
+  "directory": "C:/Users/nolan/Downloads/Splengine/Splengine/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Splengine.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Splengine.dir\\splengine\\scene.cpp.obj -c C:\\Users\\nolan\\Downloads\\Splengine\\Splengine\\splengine\\scene.cpp",
+  "file": "C:/Users/nolan/Downloads/Splengine/Splengine/splengine/scene.cpp",
+  "output": "CMakeFiles/Splengine.dir/splengine/scene.cpp.obj"
+},
+{
+  "directory": "C:/Users/nolan/Downloads/Splengine/Splengine/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Splengine.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Splengine.dir\\main.cpp.obj -c C:\\Users\\nolan\\Downloads\\Splengine\\Splengine\\main.cpp",
   "file": "C:/Users/nolan/Downloads/Splengine/Splengine/main.cpp",
   "output": "CMakeFiles/Splengine.dir/main.cpp.obj"

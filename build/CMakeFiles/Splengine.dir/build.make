@@ -68,11 +68,71 @@ include CMakeFiles/Splengine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Splengine.dir/flags.make
 
+CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj: CMakeFiles/Splengine.dir/flags.make
+CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj: CMakeFiles/Splengine.dir/includes_CXX.rsp
+CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj: C:/Users/nolan/Downloads/Splengine/Splengine/splengine/components/component.cpp
+CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj: CMakeFiles/Splengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj -MF CMakeFiles\Splengine.dir\splengine\components\component.cpp.obj.d -o CMakeFiles\Splengine.dir\splengine\components\component.cpp.obj -c C:\Users\nolan\Downloads\Splengine\Splengine\splengine\components\component.cpp
+
+CMakeFiles/Splengine.dir/splengine/components/component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Splengine.dir/splengine/components/component.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nolan\Downloads\Splengine\Splengine\splengine\components\component.cpp > CMakeFiles\Splengine.dir\splengine\components\component.cpp.i
+
+CMakeFiles/Splengine.dir/splengine/components/component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Splengine.dir/splengine/components/component.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nolan\Downloads\Splengine\Splengine\splengine\components\component.cpp -o CMakeFiles\Splengine.dir\splengine\components\component.cpp.s
+
+CMakeFiles/Splengine.dir/splengine/core.cpp.obj: CMakeFiles/Splengine.dir/flags.make
+CMakeFiles/Splengine.dir/splengine/core.cpp.obj: CMakeFiles/Splengine.dir/includes_CXX.rsp
+CMakeFiles/Splengine.dir/splengine/core.cpp.obj: C:/Users/nolan/Downloads/Splengine/Splengine/splengine/core.cpp
+CMakeFiles/Splengine.dir/splengine/core.cpp.obj: CMakeFiles/Splengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Splengine.dir/splengine/core.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Splengine.dir/splengine/core.cpp.obj -MF CMakeFiles\Splengine.dir\splengine\core.cpp.obj.d -o CMakeFiles\Splengine.dir\splengine\core.cpp.obj -c C:\Users\nolan\Downloads\Splengine\Splengine\splengine\core.cpp
+
+CMakeFiles/Splengine.dir/splengine/core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Splengine.dir/splengine/core.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nolan\Downloads\Splengine\Splengine\splengine\core.cpp > CMakeFiles\Splengine.dir\splengine\core.cpp.i
+
+CMakeFiles/Splengine.dir/splengine/core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Splengine.dir/splengine/core.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nolan\Downloads\Splengine\Splengine\splengine\core.cpp -o CMakeFiles\Splengine.dir\splengine\core.cpp.s
+
+CMakeFiles/Splengine.dir/splengine/entity.cpp.obj: CMakeFiles/Splengine.dir/flags.make
+CMakeFiles/Splengine.dir/splengine/entity.cpp.obj: CMakeFiles/Splengine.dir/includes_CXX.rsp
+CMakeFiles/Splengine.dir/splengine/entity.cpp.obj: C:/Users/nolan/Downloads/Splengine/Splengine/splengine/entity.cpp
+CMakeFiles/Splengine.dir/splengine/entity.cpp.obj: CMakeFiles/Splengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Splengine.dir/splengine/entity.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Splengine.dir/splengine/entity.cpp.obj -MF CMakeFiles\Splengine.dir\splengine\entity.cpp.obj.d -o CMakeFiles\Splengine.dir\splengine\entity.cpp.obj -c C:\Users\nolan\Downloads\Splengine\Splengine\splengine\entity.cpp
+
+CMakeFiles/Splengine.dir/splengine/entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Splengine.dir/splengine/entity.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nolan\Downloads\Splengine\Splengine\splengine\entity.cpp > CMakeFiles\Splengine.dir\splengine\entity.cpp.i
+
+CMakeFiles/Splengine.dir/splengine/entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Splengine.dir/splengine/entity.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nolan\Downloads\Splengine\Splengine\splengine\entity.cpp -o CMakeFiles\Splengine.dir\splengine\entity.cpp.s
+
+CMakeFiles/Splengine.dir/splengine/scene.cpp.obj: CMakeFiles/Splengine.dir/flags.make
+CMakeFiles/Splengine.dir/splengine/scene.cpp.obj: CMakeFiles/Splengine.dir/includes_CXX.rsp
+CMakeFiles/Splengine.dir/splengine/scene.cpp.obj: C:/Users/nolan/Downloads/Splengine/Splengine/splengine/scene.cpp
+CMakeFiles/Splengine.dir/splengine/scene.cpp.obj: CMakeFiles/Splengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Splengine.dir/splengine/scene.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Splengine.dir/splengine/scene.cpp.obj -MF CMakeFiles\Splengine.dir\splengine\scene.cpp.obj.d -o CMakeFiles\Splengine.dir\splengine\scene.cpp.obj -c C:\Users\nolan\Downloads\Splengine\Splengine\splengine\scene.cpp
+
+CMakeFiles/Splengine.dir/splengine/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Splengine.dir/splengine/scene.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nolan\Downloads\Splengine\Splengine\splengine\scene.cpp > CMakeFiles\Splengine.dir\splengine\scene.cpp.i
+
+CMakeFiles/Splengine.dir/splengine/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Splengine.dir/splengine/scene.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nolan\Downloads\Splengine\Splengine\splengine\scene.cpp -o CMakeFiles\Splengine.dir\splengine\scene.cpp.s
+
 CMakeFiles/Splengine.dir/main.cpp.obj: CMakeFiles/Splengine.dir/flags.make
 CMakeFiles/Splengine.dir/main.cpp.obj: CMakeFiles/Splengine.dir/includes_CXX.rsp
 CMakeFiles/Splengine.dir/main.cpp.obj: C:/Users/nolan/Downloads/Splengine/Splengine/main.cpp
 CMakeFiles/Splengine.dir/main.cpp.obj: CMakeFiles/Splengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Splengine.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Splengine.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Splengine.dir/main.cpp.obj -MF CMakeFiles\Splengine.dir\main.cpp.obj.d -o CMakeFiles\Splengine.dir\main.cpp.obj -c C:\Users\nolan\Downloads\Splengine\Splengine\main.cpp
 
 CMakeFiles/Splengine.dir/main.cpp.i: cmake_force
@@ -85,11 +145,19 @@ CMakeFiles/Splengine.dir/main.cpp.s: cmake_force
 
 # Object files for target Splengine
 Splengine_OBJECTS = \
+"CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj" \
+"CMakeFiles/Splengine.dir/splengine/core.cpp.obj" \
+"CMakeFiles/Splengine.dir/splengine/entity.cpp.obj" \
+"CMakeFiles/Splengine.dir/splengine/scene.cpp.obj" \
 "CMakeFiles/Splengine.dir/main.cpp.obj"
 
 # External object files for target Splengine
 Splengine_EXTERNAL_OBJECTS =
 
+Splengine.exe: CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj
+Splengine.exe: CMakeFiles/Splengine.dir/splengine/core.cpp.obj
+Splengine.exe: CMakeFiles/Splengine.dir/splengine/entity.cpp.obj
+Splengine.exe: CMakeFiles/Splengine.dir/splengine/scene.cpp.obj
 Splengine.exe: CMakeFiles/Splengine.dir/main.cpp.obj
 Splengine.exe: CMakeFiles/Splengine.dir/build.make
 Splengine.exe: _deps/glfw-build/src/libglfw3.a
@@ -97,7 +165,7 @@ Splengine.exe: libs/imgui/libimgui.a
 Splengine.exe: CMakeFiles/Splengine.dir/linkLibs.rsp
 Splengine.exe: CMakeFiles/Splengine.dir/objects1.rsp
 Splengine.exe: CMakeFiles/Splengine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Splengine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nolan\Downloads\Splengine\Splengine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Splengine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Splengine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

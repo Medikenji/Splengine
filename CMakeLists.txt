@@ -31,8 +31,10 @@ include_directories(
     splengine/components
 )
 
+file(GLOB_RECURSE SOURCES "splengine/*.cpp" "splengine/*.h")
+
 # Add the main executable
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES} main.cpp)
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME} 

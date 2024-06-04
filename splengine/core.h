@@ -1,18 +1,15 @@
 #ifndef CORE_H
 #define CORE_H
-#include <iostream>
-#include "GLFW/glfw3.h"
-#include "imgui.h"
-#include "imgui_impl_glfw.h"
-#include "imgui_impl_opengl3.h"
+#include "scene.h"
 
 class Core
 {
 public:
-    Core();
-    ~Core();
-    void run();
+   inline Core();
+    inline ~Core();
+    inline void run();
     GLFWwindow *window;
+    Scene* _mainScene;
 
 private:
     ImVec4 clear_color;

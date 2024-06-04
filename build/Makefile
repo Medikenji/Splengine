@@ -626,6 +626,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+splengine/components/component.obj: splengine/components/component.cpp.obj
+.PHONY : splengine/components/component.obj
+
+# target to build an object file
+splengine/components/component.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/components/component.cpp.obj
+.PHONY : splengine/components/component.cpp.obj
+
+splengine/components/component.i: splengine/components/component.cpp.i
+.PHONY : splengine/components/component.i
+
+# target to preprocess a source file
+splengine/components/component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/components/component.cpp.i
+.PHONY : splengine/components/component.cpp.i
+
+splengine/components/component.s: splengine/components/component.cpp.s
+.PHONY : splengine/components/component.s
+
+# target to generate assembly for a file
+splengine/components/component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/components/component.cpp.s
+.PHONY : splengine/components/component.cpp.s
+
+splengine/core.obj: splengine/core.cpp.obj
+.PHONY : splengine/core.obj
+
+# target to build an object file
+splengine/core.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/core.cpp.obj
+.PHONY : splengine/core.cpp.obj
+
+splengine/core.i: splengine/core.cpp.i
+.PHONY : splengine/core.i
+
+# target to preprocess a source file
+splengine/core.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/core.cpp.i
+.PHONY : splengine/core.cpp.i
+
+splengine/core.s: splengine/core.cpp.s
+.PHONY : splengine/core.s
+
+# target to generate assembly for a file
+splengine/core.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/core.cpp.s
+.PHONY : splengine/core.cpp.s
+
+splengine/entity.obj: splengine/entity.cpp.obj
+.PHONY : splengine/entity.obj
+
+# target to build an object file
+splengine/entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/entity.cpp.obj
+.PHONY : splengine/entity.cpp.obj
+
+splengine/entity.i: splengine/entity.cpp.i
+.PHONY : splengine/entity.i
+
+# target to preprocess a source file
+splengine/entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/entity.cpp.i
+.PHONY : splengine/entity.cpp.i
+
+splengine/entity.s: splengine/entity.cpp.s
+.PHONY : splengine/entity.s
+
+# target to generate assembly for a file
+splengine/entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/entity.cpp.s
+.PHONY : splengine/entity.cpp.s
+
+splengine/scene.obj: splengine/scene.cpp.obj
+.PHONY : splengine/scene.obj
+
+# target to build an object file
+splengine/scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/scene.cpp.obj
+.PHONY : splengine/scene.cpp.obj
+
+splengine/scene.i: splengine/scene.cpp.i
+.PHONY : splengine/scene.i
+
+# target to preprocess a source file
+splengine/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/scene.cpp.i
+.PHONY : splengine/scene.cpp.i
+
+splengine/scene.s: splengine/scene.cpp.s
+.PHONY : splengine/scene.s
+
+# target to generate assembly for a file
+splengine/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Splengine.dir\build.make CMakeFiles/Splengine.dir/splengine/scene.cpp.s
+.PHONY : splengine/scene.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -675,6 +771,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... splengine/components/component.obj
+	@echo ... splengine/components/component.i
+	@echo ... splengine/components/component.s
+	@echo ... splengine/core.obj
+	@echo ... splengine/core.i
+	@echo ... splengine/core.s
+	@echo ... splengine/entity.obj
+	@echo ... splengine/entity.i
+	@echo ... splengine/entity.s
+	@echo ... splengine/scene.obj
+	@echo ... splengine/scene.i
+	@echo ... splengine/scene.s
 .PHONY : help
 
 

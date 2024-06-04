@@ -23,13 +23,11 @@ Core::Core()
     // Set the GLSL version
     const char *glsl_version = "#version 130";
 
-    // Create a GLFW window
-    window = glfwCreateWindow(1280, 720, "Test", NULL, NULL);
-    if (window == nullptr)
-        perror("Failed to create GLFW window\n");
+    // Create the window
+    Scene *mainScene = new Scene(1280, 720, "Splengine");
 
     // Make the window's context current
-    glfwMakeContextCurrent(window);
+    glfwMakeContextCurrent(mainScene->window);
 
     // Enable vertical sync
     glfwSwapInterval(1);
@@ -42,7 +40,6 @@ Core::Core()
 
 Core::~Core()
 {
-
     // Destroy the window
     glfwDestroyWindow(window);
 
@@ -69,4 +66,3 @@ void Core::run()
     // Swap buffers
     glfwSwapBuffers(window);
 }
-

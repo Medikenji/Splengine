@@ -1,9 +1,6 @@
-CMakeFiles/Splengine.dir/main.cpp.obj: \
- C:\Users\nolan\Downloads\Splengine\Splengine\main.cpp \
- C:/Users/nolan/Downloads/Splengine/Splengine/splengine/core.cpp \
- C:/Users/nolan/Downloads/Splengine/Splengine/splengine/core.h \
- C:/Users/nolan/Downloads/Splengine/Splengine/splengine/scene.h \
- C:/Users/nolan/Downloads/Splengine/Splengine/splengine/entity.h \
+CMakeFiles/Splengine.dir/splengine/entity.cpp.obj: \
+ C:\Users\nolan\Downloads\Splengine\Splengine\splengine\entity.cpp \
+ C:\Users\nolan\Downloads\Splengine\Splengine\splengine\entity.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

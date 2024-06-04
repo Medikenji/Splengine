@@ -8,14 +8,9 @@ public:
     Entity();
     ~Entity();
     virtual void update() = 0;
-    const std::vector<Entity *> &children() { return _children; };
-    void addChild(Entity *child);
-    void removeChild(Entity *child);
-    void getRenderPriority();
 
 private:
-    uint32_t EID;
-    std::vector<Entity *> _children;
+std::vector<Entity> entities;
 };
 
 #endif

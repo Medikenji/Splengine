@@ -20,6 +20,9 @@ find_package(OpenGL REQUIRED)
 # Add ImGui
 add_subdirectory(libs/imgui)
 
+# Add Glad
+add_subdirectory(libs/glad)
+
 # Include directories
 include_directories(
     ${OPENGL_INCLUDE_DIR}
@@ -29,6 +32,7 @@ include_directories(
     imgui/examples/libs/GLFW
     splengine
     splengine/components
+    libs/glad/include
 )
 
 file(GLOB_RECURSE SOURCES "splengine/*.cpp" "splengine/*.h")
@@ -42,4 +46,5 @@ target_link_libraries(${PROJECT_NAME}
     glfw
     ${OPENGL_gl_LIBRARY}
     imgui
+    Glad
 )

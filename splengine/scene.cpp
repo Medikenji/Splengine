@@ -5,6 +5,9 @@
 Scene::Scene()
 {
     this->_clear_color = ImVec4(0.5f, 0.5f, 0.5f, 1.00f);
+    GLuint VertexArrayID;
+    glGenVertexArrays(1, &VertexArrayID);
+    glBindVertexArray(VertexArrayID);
 }
 
 Scene::~Scene()

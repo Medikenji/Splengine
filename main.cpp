@@ -2,11 +2,12 @@
 
 int main()
 {
-    Core *core = new Core();
-    while (!glfwWindowShouldClose(core->window))
+    Core core;
+    Scene *scene = new Scene();
+    while (!glfwWindowShouldClose(core.window))
     {
-        core->run();
+        core.run(scene);
     }
-    core->~Core();
+    delete scene;
     return 0;
 }

@@ -18,18 +18,18 @@ project(glfw-populate NONE)
 
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[C:/Git/cmd/git.exe]==])
-set(GIT_VERSION_STRING [==[2.45.2.windows.1]==])
+set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
+set(GIT_VERSION_STRING [==[2.38.1.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Git/cmd/git.exe;2.45.2.windows.1]==]
+  [==[C:/Program Files/Git/cmd/git.exe;2.38.1.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(glfw-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/glfw/glfw.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "3.3.8"
-                    SOURCE_DIR          "C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-src"
-                    BINARY_DIR          "C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-build"
+                    SOURCE_DIR          "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-src"
+                    BINARY_DIR          "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

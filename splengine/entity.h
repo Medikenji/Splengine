@@ -1,5 +1,8 @@
+// entity.h
+
 #ifndef ENTITY_H
 #define ENTITY_H
+
 #include <iostream>
 #include <vector>
 #include <cstdint>
@@ -36,4 +39,4 @@ protected:
     std::vector<Component*> _components;
 };
 
-#endif // ENTITY_H
+#endif /* ENTITY_H */

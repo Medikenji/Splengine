@@ -1,18 +1,20 @@
+// core.h
+
 #ifndef CORE_H
 #define CORE_H
+
 #include "scene.h"
 
 class Core
 {
 public:
-   inline Core();
+    inline Core();
     inline ~Core();
-    inline void run();
+    inline void run(Scene *scene);
     GLFWwindow *window;
-    Scene* _mainScene;
 
 private:
-    ImVec4 clear_color;
+    int _display_w, _display_h;
 };
 
-#endif // CORE_H
+#endif /* CORE_H */

@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/CMake/bin/cmake.exe;-P;C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
-source_dir=C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-src
-work_dir=C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps
+command=C:/CMake/bin/cmake.exe;-P;C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+source_dir=C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-src
+work_dir=C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps
 repository=https://github.com/glfw/glfw.git
 remote=origin
 init_submodules=TRUE

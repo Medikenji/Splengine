@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nolan/Downloads/Splengine/Splengine
+# Install script for directory: C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-build/cmake_install.cmake")
-  include("C:/Users/nolan/Downloads/Splengine/Splengine/build/libs/imgui/cmake_install.cmake")
+  include("C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-build/cmake_install.cmake")
+  include("C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/libs/imgui/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/nolan/Downloads/Splengine/Splengine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

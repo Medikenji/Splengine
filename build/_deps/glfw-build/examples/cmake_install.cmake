@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-src/examples
+# Install script for directory: C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-src/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
 endif()
 

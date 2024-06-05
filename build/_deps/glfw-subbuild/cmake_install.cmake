@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-subbuild
+# Install script for directory: C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/nolan/Downloads/Splengine/Splengine/build/_deps/glfw-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/nolan/OneDrive - ROC Alfa-college/SotwareDevelopment/Splengine/build/_deps/glfw-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

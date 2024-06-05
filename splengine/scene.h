@@ -12,10 +12,9 @@ public:
     ~Scene();
     void update(float deltaTime);
     void runScene(float deltaTime);
-    GLFWwindow *window;
 
 private:
-    Scene *_mainScene;
+    ImVec4 _clear_color;
 };
 
 #endif /* SCENE_H */

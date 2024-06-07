@@ -14,7 +14,7 @@ public:
 
 private:
   int _display_w, _display_h;
-  double _calculateDeltaTime();
+  inline double _calculateDeltaTime();
   double _deltaTime;
 };
 

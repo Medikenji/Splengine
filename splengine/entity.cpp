@@ -1,11 +1,9 @@
-// entity.cpp
+// entity.h
 
 #include "entity.h"
 
-Entity::Entity()
-{
+Entity::Entity() {
 }
 
-Entity::~Entity()
-{
+Entity::~Entity() {
 }

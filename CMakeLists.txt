@@ -13,9 +13,11 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(glfw)
-
 # Add OpenGL
 find_package(OpenGL REQUIRED)
+
+# Add GLFW
+include_directories(libs/glfw/include)
 
 # Add ImGui
 add_subdirectory(libs/imgui)
@@ -23,8 +25,6 @@ add_subdirectory(libs/imgui)
 # Add Glad
 add_subdirectory(libs/glad)
 
-# Add GLM
-add_subdirectory(libs/glm)
 
 # Include directories
 include_directories(
@@ -36,7 +36,7 @@ include_directories(
     splengine
     splengine/components
     glad/include
-    glm
+    glfw
 )
 
 file(GLOB_RECURSE SOURCES "splengine/*.cpp" "splengine/*.h")
@@ -51,5 +51,4 @@ target_link_libraries(${PROJECT_NAME}
     ${OPENGL_gl_LIBRARY}
     imgui
     Glad
-    glm
 )

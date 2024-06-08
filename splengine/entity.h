@@ -12,14 +12,16 @@ public:
   Entity();
   ~Entity();
   virtual void update(float deltaTime) = 0;
-  void Children() {};
   void addChild(Entity *child);
-  void removeChild(uint32_t EID);
+  void removeChild(Entity *child);
+  void addComponent(Component *component);
+  void deleteSelf();
 
   // get-setters
   const std::vector<Entity *> &children() { return _children; };
   uint32_t getEID() { return _EID; }
   bool checkDeletion() { return _markedForDeletion; }
+  Entity *getParent() { return _parent; };
 
 private:
   uint32_t _EID;
@@ -28,6 +30,7 @@ private:
 protected:
   std::vector<Entity *> _children;
   std::vector<Component *> _components;
+  Entity *_parent;
 };
 
 #endif /* ENTITY_H */

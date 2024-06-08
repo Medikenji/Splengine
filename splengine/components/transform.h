@@ -10,7 +10,6 @@ class Transform : public Component
 public:
     Transform(Entity *entity);
     ~Transform();
-    glm::vec3 position;
 };
 
 #endif /* TRANFORM_H */

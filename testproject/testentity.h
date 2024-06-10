@@ -8,6 +8,8 @@ public:
   TestEntity();  // Constructor declaration
   ~TestEntity(); // Destructor declaration
   void update(float deltaTime);
+  GLuint VertexArrayID;
+  GLuint vertexbuffer;
 
 private:
 };

@@ -10,6 +10,9 @@ class Transform : public Component
 public:
     Transform(Entity *entity);
     ~Transform();
+    std::vector<float> position;
+    std::vector<float> rotation;
+    std::vector<float> scale;
 };
 
 #endif /* TRANFORM_H */

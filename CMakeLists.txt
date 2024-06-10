@@ -37,12 +37,16 @@ include_directories(
     splengine/components
     glad/include
     glfw
+    testproject/
 )
 
-file(GLOB_RECURSE SOURCES "splengine/*.cpp" "splengine/*.h")
+file(GLOB_RECURSE SPLENGINE_SOURCES "splengine/*.cpp" "splengine/*.h")
+
+# Glob all *.cpp and *.h files in the main working directory
+file(GLOB_RECURSE TEST_PROJECT "testproject/*.cpp" "testproject/*.h")
 
 # Add the main executable
-add_executable(${PROJECT_NAME} ${SOURCES} main.cpp)
+add_executable(${PROJECT_NAME} ${SPLENGINE_SOURCES} ${TEST_PROJECT} main.cpp)
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME} 

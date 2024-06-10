@@ -1,0 +1,14 @@
+// #include "core.h"
+
+// int main() {
+//   Core *core = new Core(); // Create a new Core instance
+//   Scene *scene = new Scene(); // Create scene
+//   while (!glfwWindowShouldClose(core->window)) {
+//     core->run(scene);
+//   }
+//   delete scene;
+//   delete core;
+//   return 0;
+// }
+
+// remove all comments for a preset main.cpp

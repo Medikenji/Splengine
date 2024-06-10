@@ -1,8 +1,9 @@
-#include "core.cpp"
+#include "core.h"
+#include "testscene.h"
 
 int main() {
-  Core *core = new Core();
-  Scene *scene = new Scene();
+  Core *core = new Core();            // Create a new Core instance
+  TestScene *scene = new TestScene(); // Create a new TestScene instance
   while (!glfwWindowShouldClose(core->window)) {
     core->run(scene);
   }

@@ -19,7 +19,8 @@ public:
   Component(Entity *entity);
   ~Component();
 
-private:
+protected:
+  Entity *object;
 };
 
 #endif /* COMPONENT_H */

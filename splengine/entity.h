@@ -15,7 +15,7 @@ public:
   virtual void update(float deltaTime) = 0;
   void addChild(Entity *child);
   void removeChild(Entity *child);
-  void addComponent(Component *component);
+  void addComponent(Component *insertComponent, Component *component);
   void deleteSelf();
 
   // get-setters

@@ -7,15 +7,13 @@
 
 class Core {
 public:
-  Core();
+  Core(int display_w, int display_h, const char *title, int target_fps, bool fullscreen);
   ~Core();
-  void run(Scene *scene);
-  GLFWwindow *window;
+  void run(std::vector<Scene*> scenes);
 
 private:
   int _display_w, _display_h;
-  double _calculateDeltaTime();
-  double _deltaTime;
+  Scene *currentscene;
 };
 
 #endif /* CORE_H */

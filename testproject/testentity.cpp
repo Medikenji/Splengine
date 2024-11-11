@@ -1,7 +1,6 @@
 #include "testentity.h"
 
 TestEntity::TestEntity() {
-  addComponent(new Triangle(this), triangle);
 }
 
 TestEntity::~TestEntity() {
@@ -9,5 +8,5 @@ TestEntity::~TestEntity() {
 }
 
 void TestEntity::update(float deltaTime) {
-  triangle->draw();
+
 }

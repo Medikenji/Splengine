@@ -9,7 +9,7 @@ Entity::Entity() {
   nextEID++;
   _markedForDeletion = false;
   m_parent = nullptr;
- addComponent(new Transform(this), m_transform);
+  addComponent(new TransformComponent(this), m_transform);
 }
 
 Entity::~Entity() {

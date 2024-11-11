@@ -14,7 +14,6 @@ public:
     void runScene(float deltaTime);
 
 private:
-    ImVec4 _clear_color;
 };
 
 #endif /* SCENE_H */

@@ -15,11 +15,11 @@ Core::~Core() {
 }
 
 void Core::run(std::vector<Scene *> scenes) {
-  currentscene = scenes[0];
+  this->currentscene = scenes[0];
   while (!WindowShouldClose()) {
     BeginDrawing();
     ClearBackground(RAYWHITE);
-    currentscene->update(GetFrameTime());
+    this->currentscene->update(GetFrameTime());
     EndDrawing();
   }
 }

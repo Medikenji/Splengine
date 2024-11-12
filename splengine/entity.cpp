@@ -9,7 +9,6 @@ Entity::Entity() {
   nextEID++;
   _markedForDeletion = false;
   m_parent = nullptr;
-  addComponent(new TransformComponent(this), m_transform);
 }
 
 Entity::~Entity() {
@@ -37,8 +36,8 @@ void Entity::removeChild(Entity *child) {
 };
 
 void Entity::addComponent(Component *insertComponent, Component *component) {
-  m_components.push_back(insertComponent);
   component = insertComponent;
+  m_components.push_back(insertComponent);
 };
 
 void Entity::deleteSelf() {

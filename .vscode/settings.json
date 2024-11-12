@@ -73,6 +73,7 @@
         "numbers": "cpp",
         "cinttypes": "cpp",
         "fstream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "*.m": "cpp"
     }
 }

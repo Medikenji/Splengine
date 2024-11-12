@@ -4,7 +4,7 @@
 int main() {
   // Default Initialization
   std::vector<Scene *> scenes; // Create a vector of Scene pointers
-  Core *core = new Core(600, 600, "TestProject", 60, 1);     // Create a new Core instance
+  Core *core = new Core(1920, 1080, "TestProject", 100, 1);     // Create a new Core instance
 
   // Custom Initialization
   TestScene *scene = new TestScene(); // Create a new TestScene instance

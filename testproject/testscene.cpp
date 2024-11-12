@@ -1,8 +1,10 @@
 #include "testscene.h"
 
 TestScene::TestScene() : Scene() {
-    TestEntity *entity = new TestEntity();
-    addChild(entity);
+for (int i = 0; i < 5000; ++i) {
+  TestEntity *entity = new TestEntity();
+  addChild(entity);
+}
 }
 
 TestScene::~TestScene() {
@@ -10,5 +12,6 @@ TestScene::~TestScene() {
 }
 
 void TestScene::update(float deltaTime) {
+  ClearBackground(BLACK);
   Scene::update(deltaTime);
 }

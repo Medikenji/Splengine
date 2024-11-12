@@ -4,7 +4,6 @@
 #define ENTITY_H
 
 #include "component.h"
-#include "transformcomponent.h"
 
 class Entity {
   static uint32_t nextEID;
@@ -31,7 +30,6 @@ private:
 protected:
   std::vector<Entity *> m_children;
   std::vector<Component *> m_components;
-  TransformComponent *m_transform;
   Entity *m_parent;
 };
 
